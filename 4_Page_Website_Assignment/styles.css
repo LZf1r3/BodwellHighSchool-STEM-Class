@@ -1,0 +1,203 @@
+li{
+    list-style-type: none;
+    padding-bottom: 10px
+}
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.TopicTitle{    
+    text-align: left;
+    color:#fefeff;;
+    box-shadow: 2px 4px 10px black;
+    padding: 10px;
+    margin: auto;
+    margin-left: -5%;
+    border-radius: 20px;
+    padding-left: 7%;
+    background-color: #2e2e4d ;
+    min-width: 500px;
+    max-width: fit-content;
+}
+
+#Title{
+    padding: 20px;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    width: cover;
+}
+
+#Title h1{
+    text-align: center;
+    font-size: 96px;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+}
+
+p{
+    width: 80%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+h1, h2{
+    font-family: "Quicksand";
+    font-size: 30px
+}
+
+body{
+    background-color: #fefeff ;
+    margin: 0px;
+}
+
+
+nav{
+    font-weight: bold;
+    background-color: #2c1b3a;
+    min-width: 500px;
+    width: 100%;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+}
+
+nav a:hover{
+    background-color: #eae4f2;
+    color: #4b4b6f;
+    transition: background-color 0.75s;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+    padding: 10px 20px;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+table {
+    border:solid black 1px;
+    margin:30px auto;
+    border-collapse: collapse;
+    width: 70%;
+    max-width: 700px;
+    background-color: white;
+    box-shadow: 0 4px 10px ; 
+}
+
+thead {
+    border-bottom: solid black 1px;
+    background-color: #b79ced ;
+    color: white;
+    text-transform: uppercase;
+}
+
+th, td {
+    text-align: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #ccc;
+    border-right: solid black 1px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eae4f2 ;
+}
+
+tbody tr:hover {
+    background-color: #4b4b6f;
+    color:white;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.rounded-box {
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px auto;
+    background-color: #e0d4f7;
+    box-shadow: 0 4px 10px;
+    padding: 15px;
+    max-width: 69%
+}
+
+.inline-only {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin:auto;
+    max-width: 50%;
+}
+
+img{
+    display:flex;
+    overflow: hidden;
+    object-fit: cover; /* Makes sure the image fills the box without distortion */
+}
+
+.InterestingFacts{
+    background-color: #eae4f2;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px;
+    max-width: 50%;
+}
+
+.InterestingFacts:hover{
+    background-color: #4b4b6f;
+    color:white;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+#Footer{
+    background-color: #2c1b3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#Footer p{
+    max-width: 70%;
+}
+
+#FooterNav{
+    background-color: #fefeff;
+    border-radius: 20px;
+}
+
+#FooterNav a{
+    color:#2c1b3a;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 15px;
+    box-shadow: 0 1px 2px;  
+}
+
+#SleepDisorders{
+    display: flex;
+}
+
+.SleepDisorder {
+    background-color: #eae4f2;
+    width: 20%;
+    min-height: 20%;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 10px;
+    gap: 10px;
+    overflow: hidden;
+}
