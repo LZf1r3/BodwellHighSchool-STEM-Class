@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 li{
     list-style-type: none;
     padding-bottom: 10px
@@ -131,6 +134,12 @@ tbody tr:hover {
     max-width: 69%
 }
 
+.box {
+    padding: 20px;
+    margin: auto;
+    max-width: 83%;
+}
+
 .inline-only {
     text-align: center;
     font-weight: bold;
@@ -169,6 +178,18 @@ img{
     margin-top: 20px;
 }
 
+#Footer a:hover{
+    color: #e0d4f7;
+    transition: color 0.25s;
+}   
+
+#Footer a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 15px;
+}
 #Footer p{
     max-width: 70%;
 }
@@ -185,6 +206,11 @@ img{
     margin: 5px;
     padding: 15px;
     box-shadow: 0 1px 2px;  
+}
+
+#FooterNav a:hover{
+    background-color: #4b4b6f;
+    transition: background-color 0.75s;
 }
 
 #SleepDisorders{
