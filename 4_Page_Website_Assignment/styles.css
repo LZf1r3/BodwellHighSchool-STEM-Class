@@ -6,6 +6,14 @@ li{
     padding-bottom: 10px
 }
 
+
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .quicksand {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
@@ -36,7 +44,8 @@ li{
 #Title h1{
     text-align: center;
     font-size: 96px;
-    font-family: "Quicksand";
+    font-family: "Dancing Script";
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -195,7 +204,8 @@ img{
 }
 
 #FooterNav{
-    background-color: #fefeff;
+    background-image: url("images/footer-background.jpg.png");
+    background-size: cover;
     border-radius: 20px;
 }
 
