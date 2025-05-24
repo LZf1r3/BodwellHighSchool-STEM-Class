@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: #FFF8E7;
+    margin:10px;
+}
+
+#boxed-content{
+    border-radius:20px;
+    padding: 15px;
+    background: linear-gradient(45deg, #FFF8E7, #DDBEA9);
+    border: solid 1px black;
+}
+
+.box h1{
+    font-family: "lora";
+    font-optical-sizing: auto;
+    font-weight: 700;   
+    font-style: normal;
+    text-align: center;
+}
+.box h2{
+    font-family: "raleway";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.box img, iframe{
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF8E7;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 1px 4px 10px black;
+}
+
+.box{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF8E7;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 1px 4px 10px black;
+}
+
+.box-clicked {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF8E7;
+    border-radius: 20px;
+}
+
+.box-clicked:hover{
+    box-shadow: 1px 4px 10px black;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.title{
+    font-family: "Playfair Display";
+    border: solid 1px black;
+    background-color: #DDBEA9;
+    text-align: center;
+    font-size: 100px;
+    width: cover;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+}
+nav {
+    border: solid 1px black;
+    background-color: #4B3F35;
+    width:  cover;
+    border-radius: 20px;
+    margin: 5px auto;
+}
+
+nav ul {
+    margin:auto;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+ 
+nav a{
+    color: #333333;
+    background-color: #FFF8E7;
+    font-weight: bold;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+}
+ 
+nav a:hover {
+    background-color: #4B3F35;
+    color: #FFF8E7;
+    box-shadow: 1 4px 10px;
+    transition: background-color 0.5s;
+
+}
+
+#displayed-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
