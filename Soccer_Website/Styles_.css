@@ -6,8 +6,40 @@ body {
     padding: 0;
 }
 
+section{
+    margin: 20px auto;
+    max-width: 85%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.image {
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 5em;
+}
+
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h3 {
+    color: #006400;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
 h1.title {
-    background-color: #006400;
+    background: linear-gradient(180deg, #014b01, #2df02d);
     color: white;
     padding: 20px;
     text-align: center;
@@ -38,10 +70,6 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-div {
-    padding: 20px;
-}
-
 h2 {
     color: #006400;
 }
@@ -64,13 +92,12 @@ img {
     gap: 20px;
     padding: 20px;
     border-radius: 10px;   
-    margin: 20px auto;
 }
 
 #team-awards {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;;
     gap: 25px;
     background-color: #f8f8f8;
     padding: 20px;
@@ -79,21 +106,54 @@ img {
 }
 
 #awards{
+    width: 25%;
+    height: 25%;
+    background-color: #006400;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s, color 0.2s;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #555;
-    padding: 20px;
-    border-radius: 10px;
-    overflow:hidden;
-    min-width: 20%;
-    justify-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 700px;
+    background-color: white;
+    box-shadow: 0 4px 10px ;
+}
+ 
+thead {
+    background-color: #006400;
+    color: white;
+    text-transform: uppercase;
+}
+ 
+th, td {
+    padding: 12px 16px;
+}
+
+tr:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 #awards:hover {
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
     color: #fff;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 #awards img {
@@ -103,4 +163,40 @@ img {
     margin-bottom: 10px;
     overflow: hidden;
     border : 1px solid #fff;
+}
+
+div{
+    margin: 20px auto;
+    max-width: 85%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.image_team {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+iframe{
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px auto;
 }
