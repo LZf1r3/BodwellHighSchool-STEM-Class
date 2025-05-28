@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+#header, #footer {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+ 
+#main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+ 
+span {
+    background-color: #fff;
+    border: 1px dashed #aaa;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    min-width: 50px;
+    display: inline-block;
+}
+ 
+button {
+    margin: auto;
+  width: 150px;
+  height: 50px;
+  font-size: 18px; 
+  cursor: pointer; 
+  border-radius: 6px; 
+}
