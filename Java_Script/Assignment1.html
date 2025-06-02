@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8" />
+        <title>JavaScript Assignment 1</title>
+        <link rel="stylesheet" href="Javascript1.css" />
+        <script src="Assignment1.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Password Checker</h1>
+        </div>
+        
+        <div id="main">
+            <h3>Instructions:</h3>
+            <ul>
+                <li>Enter the same Password in the input field.</li>
+                <li>Click the button to see the verify the password.</li>
+            </ul>
+
+            <h3>Input Password:</h3>
+            <input type="password" id="Password" placeholder="Enter the password..." />
+            <input type="password" id="ConfirmPassword" placeholder="Confirm the password..." />
+            <button onclick="ComfirmPassword()">Verify</button>
+            <button onclick="Hint()">Hint</button>
+            <p>Hint: <span id="output1">_____</span></p>
+            <p>Output: <span id="output2">_____</span></p>
+        </div>
+
+        <div id="footer">
+            <p>&copy; 2025 JS Practice</p>
+        </div>
